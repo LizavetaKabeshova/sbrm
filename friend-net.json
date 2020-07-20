@@ -1,20 +1,20 @@
 {
     "nodes":[
-        {"id":"m-1", "age":20, "name":"Мелузов А.А.", "loaded":true},
-        {"id":"m-2", "age":15, "name":"Fred", "loaded":true},
-        {"id":"m-3", "age":16, "name":"Tom", "loaded":true},
-        {"id":"m-4", "age":35, "name":"Robert", "loaded":true},
-        {"id":"m-5", "age":38, "name":"Mark", "loaded":true},
-        {"id":"m-6", "age":42, "name":"Jason", "loaded":true},
-        {"id":"m-7", "age":37, "name":"Bill", "loaded":true},
+        {"id":"m-1", "age":20, "name":"Мелузов А. (PO)", "loaded":true},
+        {"id":"m-2", "age":15, "name":"Хайми А.", "loaded":true},
+        {"id":"m-3", "age":16, "name":"Черкасов В. (ТА)", "loaded":true},
+        {"id":"m-4", "age":35, "name":"Разработчики", "loaded":true},
+        {"id":"m-5", "age":38, "name":"Сидоренко О.(АП)", "loaded":true},
+        {"id":"m-6", "age":42, "name":"Беседин А. (ИБ)", "loaded":true},
+        {"id":"m-7", "age":37, "name":"Тишин М.", "loaded":true},
      
 
-        {"id":"f-1", "age":28, "name":"Белевцев А.А.", "loaded":true},
+        {"id":"f-1", "age":28, "name":"Белевцев А.", "loaded":true},
         {"id":"f-2", "age":21, "name":"Головерова Е.", "loaded":true},
-        {"id":"f-3", "age":17, "name":"Добонравина А.А.", "loaded":true},
-        {"id":"f-4", "age":26, "name":"Кабешова Е.А.", "loaded":true},
-        {"id":"f-5", "age":31, "name":"Elisa", "loaded":true},
-        {"id":"f-6", "age":34, "name":"Suzie", "loaded":true},
+        {"id":"f-3", "age":17, "name":"Дроганова С.", "loaded":true},
+        {"id":"f-4", "age":26, "name":"Кабешова Е. (PМ)", "loaded":true},
+        {"id":"f-5", "age":31, "name":"АРИС", "loaded":true},
+        {"id":"f-6", "age":34, "name":"Авксентьева К.", "loaded":true},
         {"id":"f-7", "age":26, "name":"Trixie", "loaded":true}
 
 
@@ -25,13 +25,19 @@
         {"id":"l02", "from":"m-1", "to":"f-2", "type":"friend"},
         {"id":"l03", "from":"m-1", "to":"f-3", "type":"friend"},
         {"id":"l04", "from":"m-1", "to":"f-4", "type":"friend"},
-        {"id":"l06", "from":"m-1", "to":"f-6", "type":"friend"},
 
         {"id":"l07", "from":"m-2", "to":"f-2", "type":"collegue"},
 
 
-        {"id":"l13", "from":"m-3", "to":"f-5", "type":"enemy"},
-        {"id":"l15", "from":"m-3", "to":"f-4", "type":"friend"}
-
+        {"id":"l08", "from":"m-3", "to":"f-5", "type":"enemy"},
+        {"id":"l09", "from":"m-3", "to":"f-4", "type":"friend"},
+        
+         {"id":"l10", "from":"f-4", "to":"m-4", "type":"friend"},
+        {"id":"l11", "from":"f-4", "to":"m-5", "type":"friend"},
+         {"id":"l12", "from":"f-4", "to":"m-6", "type":"friend"},
+         {"id":"l13", "from":"f-4", "to":"m-7", "type":"friend"}
+        
+        {"id":"l14", "from":"f-2", "to":"m-2", "type":"friend"},
+{"id":"l15", "from":"f-2", "to":"f-6", "type":"friend"}
     ]
 }
