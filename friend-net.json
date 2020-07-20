@@ -14,7 +14,7 @@
         {"id":"f-3", "age":17, "name":"Dina", "loaded":true},
         {"id":"f-4", "age":26, "name":"Cate", "loaded":true},
         {"id":"f-5", "age":31, "name":"Elisa", "loaded":true},
-        {"id":"f-6", "age":34, "name":"Suzie", "loaded":true},
+        {"id":"f-6", "age":34, "name":"Suzie", "loaded":true}
         
      
    ],
@@ -24,10 +24,11 @@
         {"id":"l02", "from":"m-1", "to":"f-2", "type":"friend"},
         {"id":"l03", "from":"m-1", "to":"f-3", "type":"friend"},
         {"id":"l04", "from":"m-1", "to":"f-4", "type":"friend"},
-        {"id":"l06", "from":"m-1", "to":"f-6", "type":"friend"},
+        {"id":"l06", "from":"m-1", "to":"f-6", "type":"friend"}
 
        
        
     
     ]
 }
+
