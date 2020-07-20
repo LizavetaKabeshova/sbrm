@@ -21,7 +21,7 @@
         {"id":"f-14", "age":20, "name":"Башкиров А.", "loaded":true},
         {"id":"f-15", "age":23, "name":"Хайми А.", "loaded":true},
         {"id":"f-16", "age":27, "name":"Jessica", "loaded":true},
-        {"id":"f-17", "age":40, "name":"Сидоренко О.(АП)", "loaded":true},
+        {"id":"f-17", "age":40, "name":"Разработчики", "loaded":true},
         {"id":"f-18", "age":45, "name":"Hanna", "loaded":true},
         {"id":"f-19", "age":53, "name":"Giselle", "loaded":true},
         {"id":"f-20", "age":27, "name":"Mia", "loaded":true},
@@ -40,11 +40,8 @@
    ],
 
     "links":[
-        {"id":"l01", "from":"m-1", "to":"f-1", "type":"friend"},
         {"id":"l02", "from":"m-1", "to":"f-2", "type":"friend"},
-        {"id":"l03", "from":"m-1", "to":"f-3", "type":"friend"},
-        {"id":"l04", "from":"m-1", "to":"f-4", "type":"friend"},
-        {"id":"l06", "from":"m-1", "to":"f-6", "type":"friend"},
+        {"id":"l04", "from":"f-2", "to":"f-4", "type":"friend"},
 
         {"id":"l07", "from":"m-2", "to":"f-2", "type":"collegue"},
 
