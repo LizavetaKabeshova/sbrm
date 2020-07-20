@@ -36,6 +36,8 @@
 
         {"id":"l17", "from":"m-4", "to":"f-15", "type":"spouse"},
         {"id":"l18", "from":"m-4", "to":"f-14", "type":"collegue"},
+         {"id":"l18", "from":"m-4", "to":"m-3", "type":"collegue"},
+
 
         {"id":"l22", "from":"m-5", "to":"f-15", "type":"collegue"},
         {"id":"l23", "from":"m-5", "to":"m-3", "type":"collegue"},
