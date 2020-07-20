@@ -6,7 +6,6 @@
         {"id":"m-3", "age":16, "name":"Кабешова Е.(РМ)", "loaded":true},
         {"id":"m-4", "age":35, "name":"Филатова Н.", "loaded":true},
         {"id":"m-5", "age":38, "name":"Авксентьева К.", "loaded":true},
-        {"id":"m-7", "age":37, "name":"Bill", "loaded":true},
         {"id":"m-8", "age":60, "name":"Andre", "loaded":true},
         {"id":"m-9", "age":63, "name":"Daniel", "loaded":true},
         {"id":"m-10", "age":17, "name":"Thomas", "loaded":true},
@@ -68,8 +67,7 @@
         {"id":"l27", "from":"f-11", "to":"f-15", "type":"collegue"},
 
         {"id":"l28", "from":"m-5", "to":"m-6", "type":"friend"},
-        {"id":"l29", "from":"m-6", "to":"m-7", "type":"friend"},
-        {"id":"l30", "from":"m-7", "to":"m-8", "type":"friend"},
+       
         {"id":"l31", "from":"m-8", "to":"m-9", "type":"friend"},
         {"id":"l32", "from":"m-9", "to":"m-10", "type":"friend"},
         {"id":"l33", "from":"m-10", "to":"m-11", "type":"friend"},
@@ -77,13 +75,11 @@
         {"id":"l35", "from":"m-12", "to":"m-13", "type":"friend"},
         {"id":"l36", "from":"m-13", "to":"m-5", "type":"friend"},
 
-        {"id":"l101", "from":"m-7", "to":"f-25", "type":"collegue"},
-        {"id":"l102", "from":"m-7", "to":"f-26", "type":"collegue"},
+
         {"id":"l103", "from":"m-9", "to":"f-26", "type":"collegue"},
         {"id":"l104", "from":"m-9", "to":"f-25", "type":"collegue"},
         {"id":"l105", "from":"f-25", "to":"f-26", "type":"collegue"},
-        {"id":"l106", "from":"m-7", "to":"m-9", "type":"collegue"},
-
+      
         {"id":"l107", "from":"f-26", "to":"f-28", "type":"friend"},
         {"id":"l108", "from":"f-27", "to":"f-28", "type":"friend"},
         {"id":"l109", "from":"f-27", "to":"f-29", "type":"friend"},
@@ -105,13 +101,11 @@
 
         {"id":"l130", "from":"f-15", "to":"m-10", "type":"friend"},
         {"id":"l131", "from":"f-23", "to":"m-4", "type":"friend"},
-        {"id":"l132", "from":"f-15", "to":"m-7", "type":"friend"},
         {"id":"l133", "from":"f-12", "to":"m-13", "type":"friend"},
         {"id":"l134", "from":"f-21", "to":"m-12", "type":"friend"},
         {"id":"l135", "from":"f-29", "to":"m-11", "type":"friend"},
 
         {"id":"l136", "from":"f-13", "to":"m-11", "type":"friend"},
-        {"id":"l137", "from":"f-13", "to":"m-7", "type":"friend"},
         {"id":"l138", "from":"f-13", "to":"m-12", "type":"friend"},
         {"id":"l139", "from":"f-13", "to":"m-6", "type":"friend"},
 
