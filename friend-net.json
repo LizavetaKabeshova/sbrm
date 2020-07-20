@@ -13,7 +13,7 @@
         {"id":"f-5", "age":31, "name":"Сидоренко О.(АП)", "loaded":true},
         {"id":"f-7", "age":26, "name":"Trixie", "loaded":true},
         {"id":"f-8", "age":37, "name":"Черкасов А.(ТА)", "loaded":true},
-        {"id":"f-9", "age":39, "name":"Северов А.", "loaded":true},
+        {"id":"f-9", "age":39, "name":"Разработчики", "loaded":true},
         {"id":"f-10", "age":42, "name":"Беседин А.(ИБ)", "loaded":true},
         {"id":"f-11", "age":32, "name":"Sara", "loaded":true},
         {"id":"f-12", "age":28, "name":"Julia", "loaded":true},
@@ -21,26 +21,18 @@
         {"id":"f-14", "age":20, "name":"Башкиров А.", "loaded":true},
         {"id":"f-15", "age":23, "name":"Хайми А.", "loaded":true},
         {"id":"f-16", "age":27, "name":"Jessica", "loaded":true},
-        {"id":"f-17", "age":40, "name":"Разработчики", "loaded":true},
+        {"id":"f-17", "age":40, "name":"Северов А.", "loaded":true},
         {"id":"f-18", "age":45, "name":"Hanna", "loaded":true},
         {"id":"f-19", "age":53, "name":"Giselle", "loaded":true},
         {"id":"f-20", "age":27, "name":"Mia", "loaded":true},
         {"id":"f-21", "age":19, "name":"Rose", "loaded":true},
         {"id":"f-23", "age":28, "name":"Логейко П.", "loaded":true},
-        {"id":"f-22", "age":32, "name":"Степанов Ф.", "loaded":true},
-        {"id":"f-25", "age":37, "name":"Fatima", "loaded":true},
-        {"id":"f-26", "age":44, "name":"Samantha", "loaded":true},
-        {"id":"f-27", "age":23, "name":"Chelia", "loaded":true},
-        {"id":"f-28", "age":18, "name":"Alexa", "loaded":true},
-        {"id":"f-29", "age":21, "name":"Karla", "loaded":true},
-        {"id":"f-30", "age":23, "name":"Karina", "loaded":true},
-        {"id":"f-31", "age":51, "name":"Patricia", "loaded":true},
-        {"id":"f-32", "age":47, "name":"Anna", "loaded":true},
-        {"id":"f-33", "age":38, "name":"Laura", "loaded":true}
+        {"id":"f-22", "age":32, "name":"Степанов Ф.", "loaded":true}
+
    ],
 
     "links":[
-        {"id":"l02", "from":"m-1", "to":"f-2", "type":"friend"},
+        {"id":"l02", "from":"m-1", "to":"f-4", "type":"friend"},
         {"id":"l04", "from":"f-2", "to":"f-4", "type":"friend"},
 
         {"id":"l07", "from":"m-2", "to":"f-2", "type":"collegue"},
@@ -61,16 +53,6 @@
 
    
 
-        {"id":"l105", "from":"f-25", "to":"f-26", "type":"collegue"},
-      
-        {"id":"l107", "from":"f-26", "to":"f-28", "type":"friend"},
-        {"id":"l108", "from":"f-27", "to":"f-28", "type":"friend"},
-        {"id":"l109", "from":"f-27", "to":"f-29", "type":"friend"},
-        {"id":"l110", "from":"f-10", "to":"f-29", "type":"friend"},
-
-        {"id":"l111", "from":"f-29", "to":"f-33", "type":"friend"},
-        {"id":"l112", "from":"f-29", "to":"f-32", "type":"friend"},
-        {"id":"l113", "from":"f-29", "to":"f-31", "type":"friend"},
       
         {"id":"l118", "from":"f-23", "to":"f-22", "type":"friend"},
         {"id":"l119", "from":"f-22", "to":"f-21", "type":"friend"},
