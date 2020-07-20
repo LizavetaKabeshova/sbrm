@@ -35,8 +35,8 @@
         {"id":"f-19", "age":53, "name":"Giselle", "loaded":true},
         {"id":"f-20", "age":27, "name":"Mia", "loaded":true},
         {"id":"f-21", "age":19, "name":"Rose", "loaded":true},
-        {"id":"f-23", "age":28, "name":"Judy", "loaded":true},
-        {"id":"f-22", "age":32, "name":"Nikola", "loaded":true},
+        {"id":"f-23", "age":28, "name":"Логейко П.", "loaded":true},
+        {"id":"f-22", "age":32, "name":"Степанов Ф.", "loaded":true},
         {"id":"f-24", "age":34, "name":"Sofia", "loaded":true},
         {"id":"f-25", "age":37, "name":"Fatima", "loaded":true},
         {"id":"f-26", "age":44, "name":"Samantha", "loaded":true},
@@ -51,7 +51,7 @@
 
     "links":[
         {"id":"l01", "from":"m-1", "to":"f-1", "type":"friend"},
-        {"id":"l02", "from":"m-1", "to":"f-2", "type":"friend"},
+        {"id":"l02", "from":"f-4", "to":"f-2", "type":"friend"},
         {"id":"l03", "from":"m-1", "to":"f-3", "type":"friend"},
         {"id":"l04", "from":"m-1", "to":"f-4", "type":"friend"},
         {"id":"l06", "from":"m-1", "to":"f-6", "type":"friend"},
