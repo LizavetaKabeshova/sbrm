@@ -33,12 +33,11 @@
         {"id":"l14", "from":"m-3", "to":"f-8", "type":"friend"},
         {"id":"l15", "from":"m-3", "to":"f-4", "type":"friend"},
         {"id":"l16", "from":"m-3", "to":"f-9", "type":"friend"},
-        {"id":"l20", "from":"m-3", "to":"m-4", "type":"friend"},
 
 
         {"id":"l17", "from":"m-4", "to":"f-15", "type":"spouse"},
         {"id":"l18", "from":"m-4", "to":"f-14", "type":"collegue"},
-         {"id":"l18", "from":"m-4", "to":"m-3", "type":"collegue"},
+         {"id":"l19", "from":"m-4", "to":"m-3", "type":"collegue"},
 
 
         {"id":"l22", "from":"m-5", "to":"f-15", "type":"collegue"},
